@@ -1,0 +1,40 @@
+apply plugin: 'com.android.library'
+
+android {
+    def versions = rootProject.ext.versions
+    compileSdkVersion versions.sdkCompileVersion
+    defaultConfig {
+        // 混淆配置
+        consumerProguardFiles 'proguard-base.pro'
+        minSdkVersion 18
+        targetSdkVersion versions.sdkCompileVersion
+        versionCode versions.appVersionCode
+        versionName versions.appVersionName
+    }
+    dataBinding{
+        enabled true
+    }
+    compileOptions {
+        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+    def dependencies = rootProject.ext.deps
+    implementation dependencies.suport.appcompat
+    implementation dependencies.suport.material
+    api dependencies.suport.lifecycleRuntime
+    api dependencies.suport.lifecycleCommon
+    api dependencies.suport.lifecycleViewmodel
+    api dependencies.suport.lifecycleLivedata
+    api dependencies.suport.lifecycleLivedata
+    api dependencies.suport.titlebar
+    api dependencies.suport.immersionbar
+    api dependencies.suport.rxjava
+    api dependencies.suport.rxandroid
+    api dependencies.suport.rxbinding
+    api dependencies.suport.rxpermissions2
+
+}

@@ -1,0 +1,11 @@
+<resources>
+    <!--host代表宿主-->
+    <!--身份选择-->
+    <string name="host_identity_title">选择身份</string>
+    <string name="host_identity_student">我是学生</string>
+    <string name="host_identity_student_tip">学共体陪你快乐高效学习</string>
+    <string name="host_identity_teacher">我是老师</string>
+    <string name="host_identity_teacher_tip">用学共体轻松高效辅导学习</string>
+    <string name="host_identity_patriarch">我是家长</string>
+    <string name="host_identity_patriarch_tip">孩子用学共体 我放心</string>
+</resources>

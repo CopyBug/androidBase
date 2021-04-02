@@ -1,0 +1,22 @@
+ext {
+
+    // release
+    RELEASE_API = ""
+    RELEASE_REFER = ""
+    RELEASE_H5 = ""
+    RELEASE_WS = ""
+
+    // 预发布环境
+    UAT_API = ""
+    UAT_REFER = ""
+    UAT_H5 = ""
+    UAT_WS = ""
+
+
+
+    DEV_API = ""
+    DEV_REFER = ""
+    DEV_H5 = ""
+    DEV_WS =""
+
+}

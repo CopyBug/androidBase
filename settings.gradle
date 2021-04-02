@@ -1,0 +1,5 @@
+include ':widget'
+include ':resourceManager'
+include ':architecture'
+include ':app'
+rootProject.name = "androidBase"

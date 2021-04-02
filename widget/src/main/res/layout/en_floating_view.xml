@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+    <ImageView
+            android:id="@+id/ic_welfare_flow"
+            android:layout_width="@dimen/dp_56"
+        android:src="@drawable/ic_flow_car"
+            android:layout_height="@dimen/dp_56"
+    />
+    <TextView
+        android:visibility="gone"
+            android:id="@+id/float_api"
+            android:layout_width="wrap_content"
+            android:text="测试系统"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp_15"
+            android:paddingHorizontal="@dimen/dp_16"
+            android:paddingVertical="@dimen/dp_5"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

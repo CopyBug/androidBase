@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--首页-身份-->
+    <color name="host_home_bg_identity">@color/c_f4f4f4f</color>
+    <color name="host_home_title_identity">@color/c_333333</color>
+    <color name="host_home_content_identity">@color/c_666666</color>
+</resources>

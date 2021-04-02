@@ -1,0 +1,29 @@
+plugins {
+    id 'com.android.library'
+}
+android {
+    def versions = rootProject.ext.versions
+    compileSdkVersion versions.sdkCompileVersion
+    defaultConfig {
+        // 混淆配置
+        consumerProguardFiles 'proguard-base.pro'
+        minSdkVersion versions.sdkMinVersion
+        targetSdkVersion versions.sdkCompileVersion
+        versionCode 1
+        versionName "1.0.0"
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation project(":architecture")
+    //阿里ViewPage库
+    api('com.alibaba.android:ultraviewpager:1.0.7.7@aar') { transitive = true }
+    def dependencies = rootProject.ext.deps
+    implementation dependencies.suport.appcompat
+    implementation dependencies.suport.material
+
+}

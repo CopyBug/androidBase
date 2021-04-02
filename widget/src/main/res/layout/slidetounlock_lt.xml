@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <SeekBar
+        android:id="@+id/slider_seekbar"
+        android:thumbOffset="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:splitTrack="false"
+        android:progressDrawable="@drawable/bg_adjust_seek_bar"
+        android:thumb="@drawable/bg_thumb"
+        />
+    <TextView
+        android:id="@+id/slider_label"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:text="1231321"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        />
+
+
+
+</merge>
