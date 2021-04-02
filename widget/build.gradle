@@ -17,7 +17,9 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
+apply plugin: 'com.github.dcendents.android-maven'
 
+group='com.github.CopyBug'
 dependencies {
     implementation project(":architecture")
     //阿里ViewPage库
