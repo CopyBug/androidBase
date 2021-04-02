@@ -20,6 +20,10 @@ android {
     }
 
 }
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.CopyBug'
+
 dependencies {
     def dependencies = rootProject.ext.deps
     implementation dependencies.suport.appcompat
