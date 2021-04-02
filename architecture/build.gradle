@@ -21,7 +21,7 @@ android {
 
 }
 apply plugin: 'com.github.dcendents.android-maven'
-group='CopyBug'
+group='com.github.CopyBug'
 
 dependencies {
     def dependencies = rootProject.ext.deps
